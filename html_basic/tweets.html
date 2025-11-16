@@ -3,15 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A basic HTML file</title>
+    <title>My Tweets</title>
 </head>
 <body>
-<blockquote class="twitter-tweet">
-  <a href="https://twitter.com/Twitter/status/20"></a>
-</blockquote> 
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
 
-<a href="index.html">Back to Home</a>
+    <main>
+        <article>
+            <h1>My Tweets</h1>
 
+            <!-- Embedded Tweet -->
+            <blockquote class="twitter-tweet">
+                <a href="https://twitter.com/Twitter/status/20"></a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            <p><a href="index.html">Back to Home</a></p>
+        </article>
+
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Made by Bryan - <a href="https://example.com" target="_blank">here</a></p>
+    </footer>
 </body>
 </html>
